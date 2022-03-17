@@ -1,9 +1,6 @@
-nameValue=20
+nameValue=0
 
-if nameValue >=10 then
+if nameValue < 10 then
 nameValue = nameValue + 1
-print(nameValue)
+print("My Value Are : "..nameValue)
 end
-
-
-print("My Value is:"..nameValue)
